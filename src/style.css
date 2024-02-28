@@ -91,6 +91,9 @@ main {
     text-align: center;
 }
 
+.weather-forecast-icon {
+    width: 45px;
+}
 
 .weather-forecast-date {
     font-size: 16px;
