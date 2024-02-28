@@ -69,7 +69,7 @@ searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Minneapolis");
 
-let forecast = document.querySelector(".weather-forecast");
+let forecast = document.querySelector("#forecast");
 forecast.innerHTML = `
     <div class="weather-forecast-day">
         <div class="weather-forecast-date">Tues</div>
