@@ -71,6 +71,8 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+
+
 function formatDay(timestamp) {
     let date = new Date(timestamp * 1000);
     let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
@@ -80,8 +82,6 @@ function formatDay(timestamp) {
 
 }
 
-
-
 function getForecast(city) {
     let apiKey ="9327e04f1ac6d6abtf4o9fc1c4f134a0";
     let apiUrl=`https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=imperial`;
@@ -90,9 +90,7 @@ function getForecast(city) {
 }
 
 
-
 function displayForecast(response) {
-console.log(response.data);
 let forecastElement = document.querySelector("#forecast");
 
 
