@@ -85,9 +85,12 @@ main {
 }
 
 .weather-forecast {
+    display: flex;
+    justify-content: space-around;
     margin-top: 20px;
     text-align: center;
 }
+
 
 .weather-forecast-date {
     font-size: 16px;
@@ -97,7 +100,14 @@ main {
 
 .weather-forecast-temperatures {
     font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+      
 }
+
+
 
 .weather-forecast-temperature-min {
     opacity: 0.4;
