@@ -91,6 +91,10 @@ main {
     text-align: center;
 }
 
+.weather-forecast-temperature{
+    margin: 0 3px;
+}
+
 .weather-forecast-icon {
     width: 45px;
 }
@@ -100,6 +104,13 @@ main {
     color: gray;
 
 }
+
+.weather-forecast-day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .weather-forecast-temperatures {
     font-size: 13px;
